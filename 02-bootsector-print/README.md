@@ -48,6 +48,6 @@ Anyway, you know the drill:
 
 `nasm -fbin boot_sect_hello.asm -o boot_sect_hello.bin`
 
-`qemu boot_sect_hello.bin`
+`qemu-system-x86_64 boot_sect_hello.bin`
 
 Your boot sector will say 'Hello' and hang on an infinite loop
