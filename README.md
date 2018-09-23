@@ -59,7 +59,7 @@ Strategy
 
 We will want to do many things with our OS:
 
-- Boot from scratch, without GRUB
+- Boot from scratch, without GRUB - DONE!
 - Enter 32-bit mode
 - Jump from Assembly to C
 - Interrupt handling
