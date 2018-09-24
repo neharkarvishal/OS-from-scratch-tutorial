@@ -61,7 +61,8 @@ We will want to do many things with our OS:
 
 - Boot from scratch, without GRUB - DONE!
 - Enter 32-bit mode - DONE!
-- Jump from Assembly to C
+- Jump from Assembly to C - DONE!
+- Barebone Hello World Kernel
 - Interrupt handling
 - Screen output and keyboard input
 
