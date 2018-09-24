@@ -60,8 +60,9 @@ Strategy
 We will want to do many things with our OS:
 
 - Boot from scratch, without GRUB - DONE!
-- Enter 32-bit mode
-- Jump from Assembly to C
+- Enter 32-bit mode - DONE!
+- Jump from Assembly to C - DONE!
+- Barebone Hello World Kernel - DONE!
 - Interrupt handling
 - Screen output and keyboard input
 
