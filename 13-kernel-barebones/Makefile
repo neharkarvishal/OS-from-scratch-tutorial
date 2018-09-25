@@ -26,9 +26,9 @@ os-image.bin: bootsect.bin kernel.bin
 	cat $^ > $@
 
 run: os-image.bin
-	qemu-system-i386 -fda $<
+	qemu-system-i386 -curses -fda $<
 
-# USE qemu -curses on Windows
+# USE qemu -curses on Windows, and to exit from that, use ESC + 2 then q + ENTER.
 
 clean:
 	rm *.bin *.o *.dis
